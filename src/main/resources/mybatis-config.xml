@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!--延迟加载的全局开关。当开启时，所有关联对象都会延迟加载。 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"></setting>
+        <setting name="cacheEnabled" value="true"></setting>
+    </settings>
+    <typeAliases>
+        <package name="org.lanqiao.ssm.pojo"></package>
+    </typeAliases>
+
+</configuration>
